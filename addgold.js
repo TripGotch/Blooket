@@ -1,3 +1,5 @@
+window.snake.more_menu = function() {
+
 (async () => {
     let n = document.createElement('iframe');
     document.body.append(n);
@@ -44,3 +46,4 @@
 };
 
 footer();
+}
